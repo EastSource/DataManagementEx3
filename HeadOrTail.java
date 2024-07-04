@@ -22,6 +22,11 @@ public class HeadOrTail {
                 tailsCounter++;
             }
         }
-        System.out.println("Head: " + headsCounter + ", Tails: " + tailsCounter);
+        System.out.println("Heads: " + headsCounter + ", Tails: " + tailsCounter);
+        if (headsCounter > tailsCounter){
+            System.out.println("You won!");
+        }else {
+            System.out.println("You lost.");
+        }
     }
 }
